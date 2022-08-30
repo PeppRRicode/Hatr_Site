@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background: rgba(140,25,25,1);
+    background: linear-gradient(90deg, rgba(190,25,25,1) 0%,
+    rgba(150,25,25,1) 100%);
+}
+
+.title_text{
+    font-family: 'Butcherman', cursive;
+    font-size: 100px;
+    color: white;
+    padding: 20px;
+}
+
+#title_text_R{
+    color: rgb(250, 25, 25);
+    padding: 0px;
+}
+
+/*
+clip-path: polygon(0 0, 0 100%, 25% 100%, 
+25% 60%, 50% 60%, 50% 100%, 70% 100%, 70% 60%, 
+85% 100%, 100% 100%, 90% 55%, 100% 40%, 100% 0, 
+70% 0, 50% 0, 50% 40%, 25% 40%, 25% 0); HR
+*/
