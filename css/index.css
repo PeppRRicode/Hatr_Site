@@ -5,16 +5,63 @@
 }
 
 body{
-    background: rgba(140,25,25,1);
-    background: linear-gradient(90deg, rgba(190,25,25,1) 0%,
-    rgba(150,25,25,1) 100%);
+    font-family: 'Calligraffitti', cursive;
+    color: white;
+    font-size: 20px;
+    background: rgb(255, 245, 225);
 }
 
-.title_text{
-    font-family: 'Butcherman', cursive;
-    font-size: 100px;
+div{
+    display: block;
+}
+
+.navbar{
+    left: 0;
+    margin-bottom: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+    background: linear-gradient(90deg, rgb(145, 25, 25) 0%,
+    rgba(160,25,25) 100%);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 75%);
+}
+
+.navbar .brand{
+    height: 28px;
+    margin-left: 0;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -9999px;
+    width: 152px;
+}
+
+.navbar .container{
+    min-height: 45px;
+    width: 940px;
+    padding: 0 10px;
+    
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.brand{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 55px;
     color: white;
-    padding: 20px;
+}
+
+.motto{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+a{
+    text-decoration: none;
 }
 
 #title_text_R{
