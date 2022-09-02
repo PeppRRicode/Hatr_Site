@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  font-family: "Calligraffitti", cursive;
+  color: white;
+  font-size: 20px;
+  background: rgb(255, 245, 225);
+}
+
+div {
+  display: block;
+}
+
+.navbar {
+  left: 0;
+  margin-bottom: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1030;
+  background: linear-gradient(90deg, rgb(145, 25, 25) 0%, rgb(160, 25, 25) 100%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.navbar .brand {
+  height: 28px;
+  margin-left: 0;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -9999px;
+  width: 152px;
+}
+.navbar .container {
+  min-height: 45px;
+  width: 940px;
+  padding: 0 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand {
+  font-family: "Syncopate", sans-serif;
+  font-size: 55px;
+  color: white;
+}
+.brand span {
+  color: rgb(250, 25, 25);
+  padding: 0px;
+}
+
+.motto {
+  font-family: "Calligraffitti", cursive;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+clip-path: polygon(0 0, 0 100%, 25% 100%, 
+25% 60%, 50% 60%, 50% 100%, 70% 100%, 70% 60%, 
+85% 100%, 100% 100%, 90% 55%, 100% 40%, 100% 0, 
+70% 0, 50% 0, 50% 40%, 25% 40%, 25% 0); HR
+*//*# sourceMappingURL=style.css.map */
