@@ -1,3 +1,7 @@
+/*#region Imports*/
+@use "./abstracts/colors";
+/*#endregion */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,7 +12,7 @@ body{
     font-family: 'Calligraffitti', cursive;
     color: white;
     font-size: 20px;
-    background: rgb(255, 245, 225);
+    background: colors.$vintage_white;
 }
 
 div{
@@ -21,8 +25,8 @@ div{
     position: fixed;
     right: 0;
     z-index: 1030;
-    background: linear-gradient(90deg, rgb(145, 25, 25) 0%,
-    rgba(160,25,25) 100%);
+    background: linear-gradient(90deg, colors.$gradient-dark-red 0%,
+    colors.$gradient-light-red 100%);
     box-shadow: 0 1px 4px rgb(0 0 0 / 75%);
 
     .brand{
@@ -51,7 +55,7 @@ div{
     color: white;
 
     span{
-        color: rgb(250, 25, 25);
+        color: colors.$brand-special_char-color;
         padding: 0px;
     }
 }
